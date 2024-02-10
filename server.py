@@ -3,8 +3,8 @@ import signal
 import sys
 
 def server():
-    host = '192.168.0.173'  #inlocuiti IP-ul si portul
-    port = 7000
+    host = '-------------'  #inlocuiti IP-ul si portul
+    port = ----
 
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server_socket.bind((host, port))
