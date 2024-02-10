@@ -12,8 +12,8 @@ def ignored_window(window_title):
     return any(ignored_text.lower() in window_title.lower() for ignored_text in IGNORED_TEXTS)
 
 def server(window_title):
-    host = '192.168.0.173'  #inlocuiti adresa IP-ul si portul
-    port = 7000
+    host = '-------------'  #inlocuiti adresa IP-ul si portul
+    port = ----
 
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     client_socket.connect((host, port))
