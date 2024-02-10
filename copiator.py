@@ -3,7 +3,7 @@ import time
 import socket
 
 #aici sunt toate numele care sunt ignorate (daca un prograj are in denumirea lui una din denumirile de mai jos este eliminat adica nu se va mai trimite alerta)
-IGNORED_TEXTS = ["Code::Blocks", "Command Prompt", "Debug", "Open File", "New From Template", "Save File", "Create new class"]
+IGNORED_TEXTS = ["Code::Blocks", "Command Prompt", "Debug", "Open File", "New From Template", "Save File", "Create new class", "Console application"]
 
 def window_title():
     return win32gui.GetWindowText(win32gui.GetForegroundWindow())
