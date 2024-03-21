@@ -1,5 +1,5 @@
 1. Intrați în copiator.py și modificați IP-ul și portul. def server(window_title):
-2. La copiator.py v-a trebuii să schimbați numele dispozitivului.
+2. La copiator.py v-a trebui să schimbați numele dispozitivului.
 3. Intrați în server.py și modificați IP-ul și portul. def server(window_title):
 
 Mai multe informații găsiți în cod!	;)
