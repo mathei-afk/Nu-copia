@@ -18,7 +18,7 @@ def server(window_title):
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     client_socket.connect((host, port))
 
-    #numele calculatorului asta trebuie schimbat pe fiecare pc sau pot sa adaug sa il introduca fiecare cand deschide programul
+    #numele calculatorului asta trebuie schimbat pe fiecare pc
     client_name = "Nr.1"
 
     current_time = time.strftime("%H:%M:%S")
